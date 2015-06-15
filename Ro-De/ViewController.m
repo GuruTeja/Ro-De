@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "SecndViewController.h"
 
 @interface ViewController ()
+
+@property (strong, nonatomic) IBOutlet UILabel *messageLabel;
 
 @end
 
@@ -22,6 +25,17 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)tappedOnShow:(id)sender {
+  
+    [_messageLabel setText: @"Ur here"];
+
+}
+- (IBAction)tappedOnShowNext:(id)sender {
+    
+    SecndViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"SecndViewController"];
+  [self presentViewController:controller  animated:YES completion:NULL];
+  
 }
 
 @end

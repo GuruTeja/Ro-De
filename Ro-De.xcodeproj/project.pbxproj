@@ -14,6 +14,10 @@
 		6C057DD01B2B751800391712 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C057DCF1B2B751800391712 /* Images.xcassets */; };
 		6C057DD31B2B751800391712 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C057DD11B2B751800391712 /* LaunchScreen.xib */; };
 		6C057DDF1B2B751800391712 /* Ro_DeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C057DDE1B2B751800391712 /* Ro_DeTests.m */; };
+		6CA0E22B1B2B8CDE007BE6B7 /* SecndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA0E22A1B2B8CDE007BE6B7 /* SecndViewController.m */; };
+		6CA0E22D1B2B9105007BE6B7 /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA0E22C1B2B9105007BE6B7 /* maxresdefault.jpg */; };
+		6CA0E2301B2B987D007BE6B7 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA0E22F1B2B987D007BE6B7 /* ThirdViewController.m */; };
+		6CA0E2331B2B9BED007BE6B7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA0E2311B2B9BA5007BE6B7 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +37,19 @@
 		6C057DC61B2B751800391712 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C057DC71B2B751800391712 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6C057DC91B2B751800391712 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6C057DCA1B2B751800391712 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C057DCA1B2B751800391712 /* ViewController.m */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; tabWidth = 2; };
 		6C057DCD1B2B751800391712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C057DCF1B2B751800391712 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6C057DD21B2B751800391712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6C057DD81B2B751800391712 /* Ro-DeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ro-DeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C057DDD1B2B751800391712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C057DDE1B2B751800391712 /* Ro_DeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ro_DeTests.m; sourceTree = "<group>"; };
+		6CA0E2291B2B8CDE007BE6B7 /* SecndViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecndViewController.h; path = "../../../Downloads/Tutorial 1/Tutorial1/Tutorial1/SecndViewController.h"; sourceTree = "<group>"; };
+		6CA0E22A1B2B8CDE007BE6B7 /* SecndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecndViewController.m; path = "../../../Downloads/Tutorial 1/Tutorial1/Tutorial1/SecndViewController.m"; sourceTree = "<group>"; };
+		6CA0E22C1B2B9105007BE6B7 /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maxresdefault.jpg; path = ../../../Downloads/maxresdefault.jpg; sourceTree = "<group>"; };
+		6CA0E22E1B2B987D007BE6B7 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdViewController.h; path = "../../../Downloads/Tutorial 1/Tutorial1/Tutorial1/ThirdViewController.h"; sourceTree = "<group>"; };
+		6CA0E22F1B2B987D007BE6B7 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdViewController.m; path = "../../../Downloads/Tutorial 1/Tutorial1/Tutorial1/ThirdViewController.m"; sourceTree = "<group>"; };
+		6CA0E2311B2B9BA5007BE6B7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CA0E2331B2B9BED007BE6B7 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +97,8 @@
 				6C057DC91B2B751800391712 /* ViewController.h */,
 				6C057DCA1B2B751800391712 /* ViewController.m */,
 				6C057DCC1B2B751800391712 /* Main.storyboard */,
+				6CA0E2291B2B8CDE007BE6B7 /* SecndViewController.h */,
+				6CA0E22A1B2B8CDE007BE6B7 /* SecndViewController.m */,
 				6C057DCF1B2B751800391712 /* Images.xcassets */,
 				6C057DD11B2B751800391712 /* LaunchScreen.xib */,
 				6C057DC21B2B751800391712 /* Supporting Files */,
@@ -96,8 +109,12 @@
 		6C057DC21B2B751800391712 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6CA0E2311B2B9BA5007BE6B7 /* AudioToolbox.framework */,
+				6CA0E22C1B2B9105007BE6B7 /* maxresdefault.jpg */,
 				6C057DC31B2B751800391712 /* Info.plist */,
 				6C057DC41B2B751800391712 /* main.m */,
+				6CA0E22E1B2B987D007BE6B7 /* ThirdViewController.h */,
+				6CA0E22F1B2B987D007BE6B7 /* ThirdViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -200,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C057DCE1B2B751800391712 /* Main.storyboard in Resources */,
+				6CA0E22D1B2B9105007BE6B7 /* maxresdefault.jpg in Resources */,
 				6C057DD31B2B751800391712 /* LaunchScreen.xib in Resources */,
 				6C057DD01B2B751800391712 /* Images.xcassets in Resources */,
 			);
@@ -219,6 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CA0E22B1B2B8CDE007BE6B7 /* SecndViewController.m in Sources */,
+				6CA0E2301B2B987D007BE6B7 /* ThirdViewController.m in Sources */,
 				6C057DCB1B2B751800391712 /* ViewController.m in Sources */,
 				6C057DC81B2B751800391712 /* AppDelegate.m in Sources */,
 				6C057DC51B2B751800391712 /* main.m in Sources */,
@@ -352,6 +372,7 @@
 				INFOPLIST_FILE = "Ro-De/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -362,6 +383,7 @@
 				INFOPLIST_FILE = "Ro-De/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -418,6 +440,7 @@
 				6C057DE41B2B751800391712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C057DE51B2B751800391712 /* Build configuration list for PBXNativeTarget "Ro-DeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +449,7 @@
 				6C057DE71B2B751800391712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
